@@ -1,0 +1,1 @@
+Copy the 'chromedriver' folder to "C:\Program Files\"
