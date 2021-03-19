@@ -15,7 +15,7 @@ password.send_keys("Sridhar1973#")
 login_btn = driver.find_element_by_xpath('//*[@id="loginSubmit"]/button')
 login_btn.click()
 
-time.sleep(0.7)
+time.sleep(1)
 
 pin = driver.find_element_by_xpath('/html/body/div[3]/fieldset/input')
 pin.send_keys("1234")
