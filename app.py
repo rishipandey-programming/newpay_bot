@@ -2,7 +2,7 @@ from selenium import webdriver
 # from selenium.common.exceptions import TimeoutException
 import time
 
-chrome_driver = "chromedriver\chromedriver.exe"
+chrome_driver = r"C:\Program Files\chromedriver\chromedriver.exe"
 driver = webdriver.Chrome(chrome_driver)
 driver.get("https://newpay.co.in/login.php")
 user_name = driver.find_element_by_xpath('//*[@id="userid"]')
